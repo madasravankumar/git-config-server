@@ -8,6 +8,13 @@ eureka:
       
 foo: baz
 
+server:
+  port: 9999
+sailor:
+  spi:
+    host: https://sailor-spi.dev.apps.cs.sgp.dbs.com
+  pbs:
+    host: https://sailor-pbs.dev.apps.cs.sgp.dbs.com
 ---
 spring:
   config.activate.on-profile: cloud
