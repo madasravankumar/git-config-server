@@ -8,6 +8,7 @@ eureka:
       
 foo: baz
 
+---
 spring:
   config.activate.on-profile: cloud
   cloud:
@@ -39,7 +40,7 @@ ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
 
-
+---
 spring:
   config.activate.on-profile: docker
   cloud:
